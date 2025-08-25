@@ -1,4 +1,5 @@
 import type {
+        CommentConfig,
 	ExpressiveCodeConfig,
 	LicenseConfig,
 	NavBarConfig,
@@ -55,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "https://img.cdn1.vip/i/68ac1bee493a8_1756109806.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Brizen",
-	bio: "BB...bbb......",
+	bio: "ピピピ...接続に失敗しました...",
 	links: [
 				{
 			name: "Steam",
@@ -81,3 +82,9 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// Please select a dark theme, as this blog theme currently only supports dark background color
 	theme: "github-dark",
 };
+
+export const commentConfig: CommentConfig = {
+  twikoo: {
+    envId: 'https://brizen2000-blog.hf.space',
+  },
+}

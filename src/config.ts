@@ -85,6 +85,6 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 
 export const commentConfig: CommentConfig = {
   twikoo: {
-    envId: 'https://brizen2000-blog.hf.space',
+    envId: 'https://brizen.blog',
   },
 }

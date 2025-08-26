@@ -51,7 +51,7 @@ $\frac{sin(0)}{(0)}=\frac{0}{0}$
 
 利用法则
 
-$d(sin x)=cosx$      $d(x)=1$
+$d(sin x)=cosx$    and  $d(x)=1$
 
 得到
 

@@ -1,5 +1,5 @@
 ---
-title: Fuwari部署Twiko过程分享
+title: Fuwari部署Twikoo过程分享
 published: 2025-08-26
 description: '此文章记录Twikoo部署过程，仅供参考'
 image: 'https://twikoo.js.org/assets/logo.KgWMX3A2.png'
@@ -12,8 +12,6 @@ lang: ''
 Twikoo — "一个简洁、安全、免费的静态网站评论系统"
 
 --- 
-
-
 
 本站原本使用Giscus的评论功能
 
@@ -29,7 +27,7 @@ Twikoo — "一个简洁、安全、免费的静态网站评论系统"
 
 ::link-card{url="https://twikoo.js.org/mongodb-atlas.html" title="MongoDB Atlas | Twikoo 文档" description="一个简洁、安全、免费的静态网站评论系统"}
 
-区域选择: Region选择优先选择离主机近的站点，一般默认的就是。如果使用云主机就按其地理位置为准。
+区域选择: Region优先选择离主机近的站点，一般默认的就是。如果使用云主机就按其地理位置为准。
 设置好后，你将会得到类似的代码：
 
 ```
@@ -78,7 +76,7 @@ Value:mongodb+srv://<db_username>......<此处需要更改为你上面获取到�
 
 ::link-card{url="https://blog.qqquq.com/posts/fuwari-twikoo-comments/" title="给你的 Fuwari 接入 Twikoo 评论 - 咸鱼小窝" description="Fuwari 博客接入 Twikoo 评论" image:="https://blog.qqquq.com/favicon/favicon-light-32.png"}
 
-其中，请将上面复制的域名复制到`envID`
+其中，请将上面复制的域名复制到`envID`,并将<username>,<password>修改成你设置的账号和密码。
 
 ```
 export const commentConfig: CommentConfig = {
@@ -88,4 +86,4 @@ export const commentConfig: CommentConfig = {
 }
 ```
 
-enjoy!
+最后在终端输入`pnpm dev`即可本地预览，enjoy!

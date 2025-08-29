@@ -4,7 +4,7 @@ published: 2025-08-26
 description: '此文章记录Twikoo部署过程，仅供参考'
 image: 'https://twikoo.js.org/assets/logo.KgWMX3A2.png'
 tags: [分享/博客]
-category: '技术分享'
+category: '杂谈'
 draft: false 
 lang: ''
 ---

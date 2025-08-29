@@ -23,11 +23,10 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
-import { LinkCardComponent } from "./src/plugins/rehype-component-link-card.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://Cooper1896.github.io",
+	site: "https://fuwari.vercel.app/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
@@ -121,7 +120,6 @@ export default defineConfig({
 				{
 					components: {
 						github: GithubCardComponent,
-						"link-card": LinkCardComponent,
 						note: (x, y) => AdmonitionComponent(x, y, "note"),
 						tip: (x, y) => AdmonitionComponent(x, y, "tip"),
 						important: (x, y) => AdmonitionComponent(x, y, "important"),

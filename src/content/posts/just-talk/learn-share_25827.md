@@ -57,4 +57,4 @@ $d(sin x)=cosx$   和 $d(x)=1$
 
 $\frac{cosx}{1}=\frac{cos0}{1}=1$
 
-考试或许用得上？
+~
